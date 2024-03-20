@@ -7,8 +7,9 @@
 
 header {
 text-align: right;
-margin: 1rem;
+margin: 0.5rem;
 border-bottom: 6px double black;
+height: 4rem;
 }
 
 .icon {
@@ -18,11 +19,12 @@ border-bottom: 6px double black;
 main {
   display: flex;
   margin: 1rem;
-  height: 75vh;
+  height: 80vh;
 }
 
 main section {
   flex-basis: 50%;
+  
 }
 
 .center {
@@ -46,7 +48,8 @@ main section {
   flex-direction: column;
   align-items: left;
   margin-top: 5rem;
-  margin-right: 3rem;
+  margin-right: 5rem;
+  border-left: 6px double black;
 }
 
 .boxes h4 {
@@ -54,20 +57,20 @@ main section {
   justify-content: center;
 }
 
+.boxes h5 {
+  padding-top: 3rem;
+  justify-content: left;
+}
+
 .link {
   display: flex;
   margin-top: 4rem;
   background-color: black;
   color: white;
-  padding: 0.4rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
   justify-content: center;
 }
 
-.link button {
 
-}
-.boxes h5 {
-  padding-top: 3rem;
-  justify-content: left;
-}
 
