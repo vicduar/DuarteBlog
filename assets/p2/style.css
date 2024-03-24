@@ -1,0 +1,55 @@
+h1 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 0.5rem;
+}
+
+.backp2 {
+  margin-right: 15px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.sun {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.next {
+  height: 10vh;
+}
+
+.guide {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 95%;
+  border: 2px solid black;
+  padding: 3px;
+  margin: 8px auto;
+  height: 125px;
+}
+
+.title {
+  padding-bottom: 3px;
+}
+
+.dark .card {
+  border-color: white;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  justify-content: left;
+}
+
+.foot {
+  margin-left: 10px;
+}

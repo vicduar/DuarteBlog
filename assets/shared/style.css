@@ -1,0 +1,42 @@
+* {
+  font-family: fantasy;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  text-align: right;
+  border-bottom: 6px double black;
+  height: 10vh;
+}
+
+.icon {
+  height: 2rem;
+}
+
+.sun {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark header {
+  border-color: white;
+
+}
+

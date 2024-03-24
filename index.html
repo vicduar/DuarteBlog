@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="./assets/shared/style.css" />
+    <link rel="stylesheet" href="assets/p1/style.css" />
     <title>Vic's Personal Blog</title>
   </head>
 
   <body>
     <header>
-      <button onclick=""><img class="icon" src="assets/sunrise-fill.svg" alt="black sunrise icon"
+      <button onclick="dlmode">
+        <img class="icon" src="assets/img/sunrise-fill.svg" alt="black sunrise
+        icon"
       </button>
     </header>
 
@@ -21,24 +24,26 @@
       </section>
 
       <section class="boxes">
-        <h4><strong>What's on your mind?</strong></h4>
-        
-        <h5>Username</h5>
-          <input class="username "type="text" id="username" name="username" </input>
+        <div>
+          <h4><strong>What's on your mind?</strong></h4>
 
-        <h5>Title</h5>
-          <input class="title" type="text" id="title" name="title" </input>
+          <h5>Username</h5>
+          <input class="username" type="text" id="username" name="username" />
 
-        <h5>Content</h5>
-          <input class="content" type="content" id="content" name="content" </input>
+          <h5>Title</h5>
+          <input class="title" type="text" id="title" name="title" />
 
-        <a href="page.html" class="link"><button>Submit</button>
+          <h5>Content</h5>
+          <textarea rows="3" class="content" type="text" id="content"></textarea>
+
+          <button id="submit-btn" class="link" onclick="dlmode">Submit</button>
+
+          <p id="error"></p>
+        </div>
       </section>
-
     </main>
-    <link rel="stylesheet" href="./assets/style.js" />
-    
-    <footer></footer>
+    <script src="./assets/shared/script.js"></script>
+    <script src="./assets/p1/script.js"></script>
 
   </body>
 </html>

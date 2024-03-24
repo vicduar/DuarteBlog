@@ -5,11 +5,14 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 header {
-text-align: right;
-margin: 0.5rem;
-border-bottom: 6px double black;
-height: 4rem;
+  text-align: right;
+  border-bottom: 6px double black;
+  height: 10vh;
 }
 
 .icon {
@@ -18,13 +21,11 @@ height: 4rem;
 
 main {
   display: flex;
-  margin: 1rem;
-  height: 80vh;
+  height: 90vh;
 }
 
 main section {
   flex-basis: 50%;
-  
 }
 
 .center {
@@ -46,10 +47,12 @@ main section {
 .boxes {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  margin-top: 5rem;
   margin-right: 5rem;
   border-left: 6px double black;
+  padding-left: 15px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .boxes h4 {
@@ -60,12 +63,23 @@ main section {
 .boxes h5 {
   padding-top: 3rem;
   justify-content: left;
+  padding-left: 5px;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+.boxes div {
+  margin-top: 30px;
+  width: 100%;
 }
 
 .link {
   display: flex;
   margin-top: 4rem;
   background-color: black;
+  width: 100%;
   color: white;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
@@ -73,4 +87,16 @@ main section {
 }
 
 
+h1 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 0.5rem;
+}
 
+.dark .boxes {
+  border-color: white;
+}
+
+.dark .link {
+  border-color: white;
+}
