@@ -15,10 +15,16 @@ The steps required to start the development environment running include: opening
 Below are screenshots of the project in various stages following the client’s approval and just before deployment:
 
 1. The homepage of the project following completion, including light/dark modes:
+![image](https://github.com/vicduar/DuarteBlog/assets/152129193/1291c2db-1271-40f2-bac6-b83af81a2745)
 
-2. An image of the second page following clicking on the "Submit" button, including light/dark modes:
+![image](https://github.com/vicduar/DuarteBlog/assets/152129193/a1f18ed6-ecb2-41c9-af87-5a0292a7237c)
 
-3. An image of the console and main page after the "Back" button is clicked:
+
+3. An image of the second page following clicking on the "Submit" button, including light/dark modes:
+![image](https://github.com/vicduar/DuarteBlog/assets/152129193/b28cc617-c5b3-43b7-bf1b-634f6191d08e)
+
+![image](https://github.com/vicduar/DuarteBlog/assets/152129193/884746a9-8234-4485-969b-9ce5a5b25567)
+
 
 After completion of this project all of the following acceptance criteria have been met:
 
@@ -48,7 +54,7 @@ THEN I am presented with a link to the developer's portfolio.
 
 Link to Github: https://github.com/vicduar/DuarteBlog.git
 
-Link to deployed website:
+Link to deployed website: https://vicduar.github.io/DuarteBlog/
 
 Credits:
 
