@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -66,7 +67,8 @@ main section {
   padding-left: 5px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
 }
 
@@ -86,7 +88,6 @@ input, textarea {
   justify-content: center;
 }
 
-
 h1 {
   float: left;
   margin-left: 10px;
@@ -99,4 +100,9 @@ h1 {
 
 .dark .link {
   border-color: white;
+}
+
+.space {
+  height: 40px;
+  margin: 4px;
 }

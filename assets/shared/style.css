@@ -13,16 +13,16 @@ body {
 header {
   text-align: right;
   border-bottom: 6px double black;
-  height: 10vh;
+  height: 30vh;
 }
 
 .icon {
   height: 2rem;
+  margin: 3px;
 }
 
 .sun {
   height: 40px;
-  margin-right: 15px;
 }
 
 .dark {
@@ -37,6 +37,4 @@ header {
 
 .dark header {
   border-color: white;
-
 }
-
